@@ -1,0 +1,18 @@
+{
+    "rowActions": [],
+    "columns": [],
+    "name": "list",
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "id": "list",
+    "filters": [],
+    "binder": {
+        "name": "",
+        "className": "",
+        "properties": {}
+    },
+    "actions": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "order": ""
+}
