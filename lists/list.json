@@ -1,18 +1,31 @@
 {
-    "rowActions": [],
-    "columns": [],
-    "name": "list",
-    "pageSize": "0",
-    "orderBy": "",
-    "description": "",
-    "id": "list",
-    "filters": [],
-    "binder": {
-        "name": "",
+    "template": {
         "className": "",
         "properties": {}
     },
-    "actions": [],
+    "rowActions": [],
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "name": "createdBy",
+        "id": "column_0",
+        "label": "Created By",
+        "sortable": "false"
+    }],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "list",
+    "id": "list",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "personne",
+            "extraCondition": ""
+        }
+    },
+    "actions": [],
     "order": ""
 }
